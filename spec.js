@@ -10,7 +10,7 @@ describe('Protractor Demo App', function() {
       element(by.model('yourName')).sendKeys('Here');
 
       element(by.binding("yourName")).getText().then(function(el) {
-        console.log(el);   
+        console.log(el);    
       })
 
 
